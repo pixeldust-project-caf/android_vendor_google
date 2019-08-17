@@ -14,7 +14,6 @@
 
 # Prebuilt apps
 PRODUCT_PACKAGES += \
-    arcore \
     com.qualcomm.qti.services.secureui \
     datastatusnotification \
     EaselServicePrebuilt \
@@ -34,14 +33,12 @@ PRODUCT_PACKAGES += \
     SeempService \
     smcinvokepkgmgr \
     SSRestartDetector \
-    Tycho \
     uceShimService \
     uimlpaservice \
     VZWAPNLib
 
 # Prebuilt privileged apps
 PRODUCT_PACKAGES += \
-    AmbientSensePrebuilt \
     AppDirectedSMSService \
     CarrierServices \
     CarrierSetup \
@@ -52,9 +49,7 @@ PRODUCT_PACKAGES += \
     DCMO \
     DiagMon \
     EuiccGoogle \
-    GCS \
     grilservice \
-    HardwareInfo \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentTGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
@@ -65,7 +60,6 @@ PRODUCT_PACKAGES += \
     obdm_stub \
     OemDmTrigger \
     qcrilmsgtunnel \
-    SCONE \
     Showcase \
     SprintDM \
     SprintHM \
@@ -76,10 +70,8 @@ PRODUCT_PACKAGES += \
 # Prebuilt jars
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
-    com.google.android.camera.experimental2018 \
     com.qualcomm.qti.uceservice-V2.0-java \
     embmslibrary \
-    libhwinfo \
     qcrilhook \
     QtiTelephonyServicelibrary \
     uimlpalibrary \
@@ -121,9 +113,7 @@ PRODUCT_COPY_FILES := \
     vendor/google/crosshatch/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:system/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
     vendor/google/crosshatch/proprietary/etc/permissions/com.android.vzwomatrigger.xml:system/etc/permissions/com.android.vzwomatrigger.xml \
     vendor/google/crosshatch/proprietary/etc/permissions/com.customermobile.preload.vzw.xml:system/etc/permissions/com.customermobile.preload.vzw.xml \
-    vendor/google/crosshatch/proprietary/etc/permissions/com.google.android.camera.experimental2018.xml:system/etc/permissions/com.google.android.camera.experimental2018.xml \
     vendor/google/crosshatch/proprietary/etc/permissions/com.google.android.factoryota.xml:system/etc/permissions/com.google.android.factoryota.xml \
-    vendor/google/crosshatch/proprietary/etc/permissions/com.google.android.hardwareinfo.xml:system/etc/permissions/com.google.android.hardwareinfo.xml \
     vendor/google/crosshatch/proprietary/etc/permissions/com.google.modemservice.xml:system/etc/permissions/com.google.modemservice.xml \
     vendor/google/crosshatch/proprietary/etc/permissions/com.google.omadm.trigger.xml:system/etc/permissions/com.google.omadm.trigger.xml \
     vendor/google/crosshatch/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
@@ -144,7 +134,6 @@ PRODUCT_COPY_FILES := \
     vendor/google/crosshatch/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/google/crosshatch/proprietary/etc/permissions/UimService.xml:system/etc/permissions/UimService.xml \
     vendor/google/crosshatch/proprietary/etc/permissions/vzw_mvs_permissions.xml:system/etc/permissions/vzw_mvs_permissions.xml \
-    vendor/google/crosshatch/proprietary/etc/scone/country_border.leveldb:system/etc/scone/country_border.leveldb \
     vendor/google/crosshatch/proprietary/etc/sysconfig/pixel_2018_exclusive.xml:system/etc/sysconfig/pixel_2018_exclusive.xml \
     vendor/google/crosshatch/proprietary/etc/sysconfig/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
     vendor/google/crosshatch/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
@@ -298,5 +287,4 @@ PRODUCT_COPY_FILES := \
     vendor/google/crosshatch/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/google/crosshatch/proprietary/lib64/vendor.qti.voiceprint@1.0.so:system/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/google/crosshatch/proprietary/priv-app/EuiccGoogle/esim-full-v0.img:system/priv-app/EuiccGoogle/esim-full-v0.img \
-    vendor/google/crosshatch/proprietary/priv-app/EuiccGoogle/esim-v1.img:system/priv-app/EuiccGoogle/esim-v1.img \
-    vendor/google/crosshatch/proprietary/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so:system/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so
+    vendor/google/crosshatch/proprietary/priv-app/EuiccGoogle/esim-v1.img:system/priv-app/EuiccGoogle/esim-v1.img
